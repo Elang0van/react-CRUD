@@ -1,0 +1,15 @@
+label{
+    color: #29de7d;
+  }
+  input{
+    color: aqua;
+  } 
+  
+  .cancel{
+
+    background-color: orange;
+  }
+
+  .error{
+    color: red;
+  }
