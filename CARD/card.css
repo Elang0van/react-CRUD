@@ -1,0 +1,70 @@
+.logo{
+  border-radius: 50%;
+}
+.logo:hover {
+  box-shadow: 0 0 15px aqua;  /* Glow effect */
+}
+.profile{
+
+  border-radius: 50%;
+}
+.profile:hover {
+  box-shadow: 0 0 15px aqua;  /* Glow effect */
+}
+.cartlogo:hover {
+  box-shadow: 0 0 15px aqua;  /* Glow effect */
+}
+.cartlogo{
+  border-radius: 50%;
+}
+.login:hover {
+  box-shadow: 0 0 15px aqua;  /* Glow effect */
+}
+.login{
+  border-radius: 20%; 
+
+}
+.search:hover {
+  box-shadow: 0 0 15px aqua;  /* Glow effect */
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px; /* Reduce padding */
+    margin: 10px; /* Reduce margin */
+    width: 200px; /* Reduce width */
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Slightly reduced shadow */
+    border-radius: 8px; /* Add rounded corners if desired */
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .card-title {
+    font-size: 1rem; /* Reduce font size */
+    margin: 6px 0; /* Reduce margin */
+  }
+  
+  .card-price {
+    color: green;
+    font-size: 0.9rem; /* Reduce font size */
+  }
+  
+  .add-to-cart-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px; /* Reduce padding */
+    border: none;
+    cursor: pointer;
+    margin-top: 8px; /* Reduce top margin */
+    font-size: 0.9rem; /* Adjust font size if necessary */
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #218838;
+  }

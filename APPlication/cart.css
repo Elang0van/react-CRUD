@@ -1,0 +1,85 @@
+/* cart.css */
+
+.cart-container {
+  max-width: 800px; /* Limit the width of the cart */
+  margin: 20px auto; /* Center the cart on the page */
+  padding: 20px; /* Add padding inside the cart */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: greenyellow; /* Darker text color */
+}
+
+.cart-item {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  padding: 15px; /* Padding around each cart item */
+  border-bottom: 1px solid #e0e0e0; /* Light border between items */
+}
+
+.cart-item img {
+  width: 80px; /* Fixed width for images */
+  height: 80px; /* Fixed height for images */
+  border-radius: 4px; /* Slightly rounded corners for images */
+  margin-right: 15px; /* Space between image and text */
+}
+
+.cart-item h3 {
+  flex: 1; /* Take up remaining space */
+  margin: 0; /* Remove default margin */
+  font-size: 1.2em; /* Larger font size */
+  color: #007BFF; /* Blue color for product name */
+}
+
+.cart-item p {
+  margin: 0; /* Remove default margin */
+  color: #555; /* Slightly lighter text color for price */
+}
+
+.cart-item-actions {
+  display: flex; /* Use flexbox for action buttons */
+  align-items: center; /* Center buttons vertically */
+}
+
+.cart-item-actions button {
+  background-color: #007BFF; /* Blue button background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px 12px; /* Padding inside buttons */
+  margin: 0 5px; /* Space between buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.cart-item-actions button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.total-price {
+  font-size: 1.5em; /* Larger font size for total price */
+  font-weight: bold; /* Bold text */
+  text-align: right; /* Align to the right */
+  margin-top: 20px; /* Space above total price */
+}
+
+.cart-container button {
+  width: 60; /* Full-width button */
+  background-color: #28a745; /* Green button background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px; /* Padding inside button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-size: 1.2em; /* Larger font size for checkout button */
+  margin-top: 20px; /* Space above the button */
+}
+
+.cart-container button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
